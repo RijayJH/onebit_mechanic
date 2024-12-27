@@ -1,0 +1,231 @@
+	{
+		items = {
+			{
+				name = 'engineparts',
+				ingredients = {
+					iron = 10,
+					aluminum = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'bodypanels',
+				ingredients = {
+					plastic = 5,
+					metalscrap = 5,
+					glass = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'radiator',
+				ingredients = {
+					metalscrap = 5,
+					aluminum = 5,
+					iron = 10,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'driveshaft',
+				ingredients = {
+					metalscrap = 5,
+					aluminum = 5,
+					steel = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'brakes',
+				ingredients = {
+					metalscrap = 5,
+					aluminum = 10,
+					iron = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'clutch',
+				ingredients = {
+					metalscrap = 5,
+					aluminum = 5,
+					steel = 10,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'fueltank',
+				ingredients = {
+					copper = 5,
+					metalscrap = 5,
+					iron = 10,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'repairkit',
+				ingredients = {
+					copper = 5,
+					metalscrap = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'advancedrepairkit',
+				ingredients = {
+					refinedaluminum = 5,
+					refinedscrap = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'cleaningkit',
+				ingredients = {
+					polyester = 15,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'mechanic_tools',
+				ingredients = {
+					metalscrap = 5,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'lockpick',
+				ingredients = {
+					metalscrap = 1,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 3,
+			},
+			{
+				name = 'advancedlockpick',
+				ingredients = {
+					metalscrap = 10,
+					toolbox = 0.05
+				},
+				duration = 10000,
+				count = 3,
+			},
+
+		},
+		groups = {
+			['mechanic'] = 0,
+			['custommc'] = 0,
+			['beekers'] = 0,
+			['lsc'] = 0,
+			['tuckers'] = 0
+		},
+		points = {},
+		zones = {
+			{
+				coords = vec3(-205.43, -1336.29, 31.3),
+				size = vec3(1, 1, 1),
+				distance = 1.5,
+				rotation = 150.0,
+			},
+			{
+				coords = vec3(2524.44, 4105.92, 38.58),
+				size = vec3(1, 1, 1),
+				debug = false,
+				distance = 1.5,
+				rotation = 150.0,
+			},
+			{
+				coords = vec3(101.56, 6624.57, 32.2),
+				size = vec3(1, 1, 1),
+				debug = false,
+				distance = 1.5,
+				rotation = 150.0,
+			},
+			{
+				coords = vec3(-320.21, -120.03, 39.01),
+				size = vec3(1, 1, 1),
+				debug = false,
+				distance = 1.5,
+				rotation = 150.0,
+			},
+			{
+				coords = vector3(1155.37, -792.26, 57.63),
+				size = vec3(1, 1, 1),
+				debug = false,
+				distance = 1.5,
+				rotation = 150.0,
+			},
+		},
+	},
+
+	CosmeticsMechanic = {
+		name = 'Vehicle Cosmetics',
+		groups = {
+			['mechanic'] = 0,
+			['beekers'] = 0,
+			['lsc'] = 0,
+			['custommc'] = 0,
+			['tuckers'] = 0
+		},
+		inventory = {
+			{ name = 'headlights', price = 200 },
+			{ name = 'underglow_controller', price = 300},
+			{ name = 'seat', price = 200},
+			{ name = 'internals', price = 200},
+			{ name = 'externals', price = 200 },
+			{ name = 'rims', price = 500},
+			{ name = 'exhaust', price = 150},
+			{ name = 'horn', price = 200},
+			{ name = 'paintcan', price = 150},
+			{ name = 'livery', price = 100},
+			{ name = 'tires', price = 100},
+			{ name = 'skirts', price = 200},
+			{ name = 'spoiler', price = 200},
+			{ name = 'customplate', price = 200},
+			{ name = 'roof', price = 200},
+			{ name = 'hood', price = 200 },
+			{ name = 'bumper', price = 200},
+			{ name = 'tintsupplies', price = 150},
+			{ name = 'suspension2', price = 1500},
+			{ name = 'mechanic_tools', price = 50},
+			{ name = 'toolbox', price = 25},
+			{ name = 'towremote', price = 50},
+
+		}, targets = {
+            {loc = vec3(-216.4, -1338.66, 31.3 - 1), ped = 's_m_y_xmech_01', scenario = "WORLD_HUMAN_CLIPBOARD",heading = 319.96, distance = 2.0},
+			{loc = vec3(102.84, 6613.96, 32.44 - 1), ped = 's_m_y_xmech_01', scenario = "WORLD_HUMAN_CLIPBOARD",heading = 313.96, distance = 2.0},
+			{loc = vec3(-317.81, -162.28, 39.01 - 1), ped = 's_m_y_xmech_01', scenario = "WORLD_HUMAN_CLIPBOARD",heading = 44.96, distance = 2.0},
+			{loc = vec3(2532.53, 4121.0, 38.58 - 1), ped = 's_m_y_xmech_01', scenario = "WORLD_HUMAN_CLIPBOARD",heading = 98.96, distance = 2.0},
+			{loc = vector3(1158.0, -783.54, 57.61 - 1), ped = 's_m_y_xmech_01', scenario = "WORLD_HUMAN_CLIPBOARD",heading = 1.42, distance = 2.0},
+
+		}
+	},
+	
+	["mechanic_ticket"] = {
+		label = "Mechanic Ticket",
+		weight = 0,
+		stack = true,
+		description = "Give this mechanic ticket to a mechanic to customize your vehicle",
+	},
